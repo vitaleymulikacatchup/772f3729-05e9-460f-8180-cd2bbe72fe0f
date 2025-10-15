@@ -9,7 +9,7 @@ import TeamCardOne from '@/components/sections/team/TeamCardOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Lightbulb, GraphUp } from 'lucide-react';
+import { Lightbulb } from 'lucide-react';
 
 const assetMap = [
   { id: "hero", url: "https://images.pexels.com/photos/7414112/pexels-photo-7414112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Two men assist a seated colleague with a virtual reality headset in a stylish, brick-walled office." },
@@ -47,7 +47,7 @@ export default function Home() {
           <SplitAbout
             bulletPoints={[
               { title: "Innovative Solutions", description: "Custom-tailored AI solutions for your business.", icon: Lightbulb },
-              { title: "Data-Driven Insights", description: "Harness data like never before.", icon: GraphUp }
+              { title: "Data-Driven Insights", description: "Harness data like never before.", icon: Lightbulb }
             ]}
             imageSrc={assetMap.find(a => a.id === "feature1")?.url}
             className="bg-blue-50 text-blue-900"
