@@ -45,8 +45,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6">
           <SplitAbout
             bulletPoints={[
-              { title: "Innovative Solutions", description: "Custom-tailored AI solutions for your business.", icon: "Lightbulb" },
-              { title: "Data-Driven Insights", description: "Harness data like never before.", icon: "GraphUp" }
+              { title: "Innovative Solutions", description: "Custom-tailored AI solutions for your business.", icon: Lightbulb },
+              { title: "Data-Driven Insights", description: "Harness data like never before.", icon: GraphUp }
             ]}
             imageSrc={assetMap.find(a => a.id === "feature1")?.url}
             className="bg-blue-50 text-blue-900"
