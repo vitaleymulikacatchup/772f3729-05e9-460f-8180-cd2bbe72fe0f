@@ -9,6 +9,7 @@ import TeamCardOne from '@/components/sections/team/TeamCardOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import { Lightbulb, GraphUp } from 'lucide-react';
 
 const assetMap = [
   { id: "hero", url: "https://images.pexels.com/photos/7414112/pexels-photo-7414112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Two men assist a seated colleague with a virtual reality headset in a stylish, brick-walled office." },
